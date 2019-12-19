@@ -8,8 +8,6 @@ public class Day4Task2 {
     public static void main(String[] args) {
         int pwCount = 0;
 
-        System.out.print(isValidPassword(112345));
-
         for (int i = MIN; i <= MAX; i++) {
             if (isValidPassword(i)) {
                 pwCount++;
